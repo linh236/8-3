@@ -35,6 +35,52 @@ body {
   top: 270px;
   text-align: center;
 }
+.text{
+  -webkit-animation-name: animation;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;    
+  -webkit-animation-play-state: running;
+  
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;    
+  animation-play-state: running;
+  color: #f00;
+  position: absolute;
+  font-size: 45px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: all 0.5s;
+  top: 10px;
+  text-align: center;
+}
+.text-bottom{
+  -webkit-animation-name: animation;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;    
+  -webkit-animation-play-state: running;
+  
+  animation-name: animation;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;    
+  animation-play-state: running;
+  color: #f00;
+  position: absolute;
+  font-size: 45px;
+  opacity: 0;
+  transform: translateY(0%);
+  transition: all 0.5s;
+  bottom: 45px;
+  text-align: center;
+}
+.show {
+  opacity: 1;
+}
+
 .img {
   opacity: 0;
   transform: translateY(0%);

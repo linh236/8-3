@@ -51,9 +51,13 @@ $(document).ready(function() {
   
   $(".box-body").mouseover(function() {
     $(".fireworks").css("display", "block");
+    $(".text").addClass("show");
+    $(".text-bottom").addClass("show");
   })
   $(".box-body").mouseout(function() {
     $(".fireworks").css("display", "none");
+    $(".text").removeClass("show");
+    $(".text-bottom").removeClass("show");
   })
   const container = document.querySelector('.fireworks')
   const fireworks = new Fireworks.default(container, config)
