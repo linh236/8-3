@@ -107,7 +107,7 @@ body {
 }
 .box-body:hover .img{
   opacity: 1;
-  z-index: 0;
+  z-index: 100;
   transform: translateY(-157px);
 }
 
