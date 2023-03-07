@@ -50,15 +50,12 @@ $(document).ready(function() {
   }
   
   $(".box-body").mouseover(function() {
-    console.log("mouseover")
     $(".fireworks").css("display", "block");
   })
   $(".box-body").mouseout(function() {
-    console.log("mouseover")
     $(".fireworks").css("display", "none");
   })
   const container = document.querySelector('.fireworks')
-  console.log(container)
   const fireworks = new Fireworks.default(container, config)
   fireworks.start()
 })  
